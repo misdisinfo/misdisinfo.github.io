@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+title: New Research Initiative Launched
+date: 2026-01-15 10:00:00
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Our team has launched a new research initiative investigating the role of social media algorithms in misinformation spread. More details coming soon!

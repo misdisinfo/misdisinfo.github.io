@@ -2,11 +2,32 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Our ongoing research projects investigating mis- and disinformation.
 nav: true
-nav_order: 3
-display_categories: [work, fun]
+nav_order: 2
+display_categories: [current, completed]
 horizontal: false
+---
+
+## Research Projects
+
+### Current Projects
+- **Project 1**: [Add project title and brief description]
+- **Project 2**: [Add project title and brief description]
+- **Project 3**: [Add project title and brief description]
+
+### Completed Projects
+- **Past Project 1**: [Add project title and brief description]
+- **Past Project 2**: [Add project title and brief description]
+
+### Project Areas
+- Misinformation detection and tracking
+- Social media dynamics
+- Fact-checking effectiveness
+- Algorithmic amplification
+- Cross-platform information flows
+- Policy interventions
+
 ---
 
 <!-- pages/projects.md -->
