@@ -301,7 +301,7 @@ DEPENDENCIES
   css_parser
   feedjira
   httparty
-  jekyll
+  jekyll (~> 4.4)
   jekyll-3rd-party-libraries
   jekyll-archives-v2
   jekyll-cache-bust
