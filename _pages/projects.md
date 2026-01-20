@@ -12,15 +12,18 @@ horizontal: false
 ## Research Projects
 
 ### Current Projects
+
 - **Project 1**: [Add project title and brief description]
 - **Project 2**: [Add project title and brief description]
 - **Project 3**: [Add project title and brief description]
 
 ### Completed Projects
+
 - **Past Project 1**: [Add project title and brief description]
 - **Past Project 2**: [Add project title and brief description]
 
 ### Project Areas
+
 - Misinformation detection and tracking
 - Social media dynamics
 - Fact-checking effectiveness

@@ -18,6 +18,7 @@ The website has been configured with the following sections:
 ### Disabled Pages
 
 The following pages are disabled (not shown in navigation) but can be re-enabled if needed:
+
 - CV page
 - Books/bookshelf page
 - Individual profiles page
@@ -29,6 +30,7 @@ The following pages are disabled (not shown in navigation) but can be re-enabled
 Create a new file in `_posts/` with the naming format: `YYYY-MM-DD-title.md`
 
 Example:
+
 ```markdown
 ---
 layout: post
@@ -47,6 +49,7 @@ Your content here...
 Create a new file in `_projects/` with the naming format: `number_project-name.md`
 
 Example:
+
 ```markdown
 ---
 layout: page
@@ -84,6 +87,7 @@ Brief announcement text here.
 ### Site Settings
 
 Edit `_config.yml` to modify:
+
 - Site title and description
 - Contact information
 - Enabled features
@@ -93,6 +97,7 @@ Edit `_config.yml` to modify:
 ### Social Media & Contact
 
 Edit `_data/socials.yml` to update:
+
 - Email address
 - Social media handles
 - Custom links
@@ -100,6 +105,7 @@ Edit `_data/socials.yml` to update:
 ### Navigation Menu
 
 Edit page frontmatter to control navigation:
+
 - `nav: true` - Show in navigation
 - `nav: false` - Hide from navigation
 - `nav_order: 3` - Position in menu
@@ -130,16 +136,19 @@ The site automatically deploys to GitHub Pages when you push to the `main` branc
 ## Content Guidelines
 
 ### Writing Style
+
 - Use clear, accessible language
 - Avoid excessive jargon
 - Write for diverse audiences (researchers, students, public)
 
 ### Images
+
 - Place images in `assets/img/`
 - Use descriptive filenames
 - Optimize file sizes for web
 
 ### Links
+
 - Use relative links for internal pages: `/projects/`
 - Use absolute URLs for external sites
 - Check links regularly for broken references
@@ -147,12 +156,14 @@ The site automatically deploys to GitHub Pages when you push to the `main` branc
 ## Maintenance Tasks
 
 ### Regular Updates
+
 - Add new publications as they're released
 - Post news about events and activities
 - Update project statuses
 - Review and update educational program information
 
 ### Quarterly Reviews
+
 - Check for broken links
 - Update team member information
 - Review analytics (if configured)
@@ -161,6 +172,7 @@ The site automatically deploys to GitHub Pages when you push to the `main` branc
 ## Support
 
 For technical issues or questions about the website:
+
 - Review the original [CUSTOMIZE.md](CUSTOMIZE.md) for detailed customization options
 - Check [FAQ.md](FAQ.md) for common issues
 - Consult the [al-folio documentation](https://github.com/alshedivat/al-folio)
@@ -192,6 +204,7 @@ For technical issues or questions about the website:
 ## Contact & Collaboration
 
 This website serves as a hub for collaboration and knowledge sharing. Encourage visitors to:
+
 - Subscribe to updates
 - Follow on social media
 - Reach out for collaborations

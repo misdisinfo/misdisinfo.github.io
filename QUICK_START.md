@@ -6,12 +6,15 @@
 cd /Users/saurabh/Desktop/Saurabh/misdisinfo.github.io
 docker compose up
 ```
+
 Visit: **http://localhost:8080**
 
 ## ✏️ Add Your First Content
 
 ### 1. Add a News Post
+
 Create: `_posts/2026-01-21-your-title.md`
+
 ```markdown
 ---
 layout: post
@@ -20,11 +23,14 @@ date: 2026-01-21 10:00:00
 tags: research events
 categories: announcements
 ---
+
 Your content here...
 ```
 
 ### 2. Add a Research Project
+
 Create: `_projects/2_project-name.md`
+
 ```markdown
 ---
 layout: page
@@ -33,11 +39,14 @@ description: Brief description
 importance: 1
 category: current
 ---
+
 Project details...
 ```
 
 ### 3. Add Publications
+
 Edit: `_bibliography/papers.bib`
+
 ```bibtex
 @article{yourpaper2026,
   title={Your Paper Title},
@@ -51,6 +60,7 @@ Edit: `_bibliography/papers.bib`
 ## 📝 Update Contact Info
 
 Edit `_data/socials.yml`:
+
 ```yaml
 email: your-actual-email@uva.nl
 twitter_username: your_handle
@@ -61,6 +71,7 @@ github_username: your_org
 
 1. Save logo as `assets/img/prof_pic.jpg` (or any name)
 2. Update in `_pages/about.md` frontmatter:
+
 ```yaml
 profile:
   image: your-logo.jpg
@@ -85,6 +96,7 @@ Auto-deploys via GitHub Actions → Available at https://misdisinfo.github.io
 ## ✅ Current Status
 
 **Configured & Ready:**
+
 - ✅ Organization branding
 - ✅ Mission-focused about page
 - ✅ Projects, Publications, Education pages
@@ -93,6 +105,7 @@ Auto-deploys via GitHub Actions → Available at https://misdisinfo.github.io
 - ✅ Cleaned sample content
 
 **Next: Add Your Content!**
+
 1. Update social media handles
 2. Add organization logo
 3. Create real projects

@@ -27,6 +27,7 @@ Follow us on social media for updates on our research, events, and educational p
 ### Collaboration Opportunities
 
 We're always interested in:
+
 - Research collaborations and partnerships
 - Guest lectures and workshops
 - Joint funding applications

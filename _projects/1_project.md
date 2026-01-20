@@ -33,4 +33,4 @@ Publications from this project will be listed here as they become available.
 
 ---
 
-*This is a template project page. Replace this content with actual project information.*
+_This is a template project page. Replace this content with actual project information._

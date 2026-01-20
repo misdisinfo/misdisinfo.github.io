@@ -6,9 +6,10 @@ This document summarizes all changes made to transform the al-folio template int
 
 ---
 
-## 1. Site Configuration (_config.yml)
+## 1. Site Configuration (\_config.yml)
 
 ### Updated Settings:
+
 - **Title**: "Mis|Disinformation Initiative"
 - **Description**: "A collaborative research hub advancing understanding of mis- and disinformation through academic research, education, and community engagement."
 - **Keywords**: misinformation, disinformation, communication research, media literacy, academic research, ASCoR, University of Amsterdam
@@ -23,21 +24,25 @@ This document summarizes all changes made to transform the al-folio template int
 ## 2. Page Updates
 
 ### ✅ Homepage (about.md)
+
 - Transformed from individual bio to organizational introduction
 - Added mission statement and goals
 - Included sections on: Research Excellence, Educational Programs, Knowledge Dissemination, Community Engagement
 - Call to action for visitors to get involved
 
 ### ✅ Projects Page (projects.md)
+
 - Updated description: "Our ongoing research projects investigating mis- and disinformation"
 - Changed categories from "work, fun" to "current, completed"
 - Added template project file
 
 ### ✅ Publications Page (publications.md)
+
 - Updated description: "Research publications from the Mis|Disinformation Initiative and affiliated researchers"
 - Maintained BibTeX integration
 
 ### ✅ Education Page (teaching.md → education/)
+
 - Renamed from "teaching" to "education"
 - Complete rewrite focusing on:
   - Educational programs overview
@@ -48,26 +53,31 @@ This document summarizes all changes made to transform the al-folio template int
 - Removed calendar widget
 
 ### ✅ News & Events Page (blog.md)
+
 - Renamed from "blog" to "news & events"
 - Repositioned in navigation (nav_order: 5)
 - Serves as hub for announcements and updates
 
 ### ✅ NEW: Contact Page (contact.md)
+
 - Created new contact page
 - Includes email, location, collaboration opportunities
 - Call to action for different stakeholder groups
 
 ### ✅ NEW: Events Page (events.md)
+
 - Dedicated page for conferences, workshops, seminars
 - Event types explained
 - Placeholder for upcoming and past events
 
 ### ❌ Disabled Pages:
+
 - **CV page** (nav: false) - Not relevant for organization
 - **Books page** - Not relevant for organization
 - **Profiles page** - Can be re-enabled if team member profiles needed
 
 ### 📝 Updated Navigation:
+
 - Dropdown menu renamed to "resources"
 - Removed books link, kept repositories and news archive
 
@@ -76,12 +86,14 @@ This document summarizes all changes made to transform the al-folio template int
 ## 3. Content Cleanup
 
 ### Removed Sample Content:
+
 - ✅ All example blog posts (31 files)
 - ✅ All example projects (7 files)
 - ✅ All example news items (3 files)
 - ✅ All example books
 
 ### Added Placeholder Content:
+
 - ✅ Welcome blog post (2026-01-20-welcome.md)
 - ✅ Sample news announcement
 - ✅ Template project file
@@ -90,7 +102,8 @@ This document summarizes all changes made to transform the al-folio template int
 
 ## 4. Contact & Social Media
 
-### Updated (_data/socials.yml):
+### Updated (\_data/socials.yml):
+
 - Email: misdisinfo@uva.nl (placeholder - update with actual)
 - Twitter: misdisinfo_uva (placeholder - update with actual)
 - GitHub: misdisinfo (placeholder - update with actual)
@@ -102,6 +115,7 @@ This document summarizes all changes made to transform the al-folio template int
 ## 5. Documentation
 
 ### Created New Files:
+
 - **WEBSITE_SETUP_GUIDE.md** - Comprehensive guide for managing the website
   - How to add content (posts, projects, publications)
   - Configuration instructions
@@ -127,6 +141,7 @@ Hidden pages: Contact, Events, CV, Books, Profiles
 ## Next Steps & Recommendations
 
 ### Immediate Actions:
+
 1. ✅ **Update social media handles** in `_data/socials.yml` with actual accounts
 2. ✅ **Add organization logo/image** to `assets/img/` and update `prof_pic.jpg`
 3. ✅ **Add real projects** by editing or creating files in `_projects/`
@@ -134,6 +149,7 @@ Hidden pages: Contact, Events, CV, Books, Profiles
 5. ✅ **Create news posts** about research activities and events
 
 ### Optional Enhancements:
+
 - Consider re-enabling profiles page for team members
 - Add Google Analytics for traffic monitoring
 - Set up custom domain (if desired)
@@ -141,6 +157,7 @@ Hidden pages: Contact, Events, CV, Books, Profiles
 - Add more detailed event calendar functionality
 
 ### Content Strategy:
+
 - **Projects**: Showcase 3-5 key current research projects
 - **Publications**: Add 10-15 recent/important publications, mark top ones as selected
 - **News**: Publish regular updates (aim for 1-2 per month)
@@ -152,14 +169,18 @@ Hidden pages: Contact, Events, CV, Books, Profiles
 ## Testing the Website
 
 ### Local Testing (Docker - Recommended):
+
 ```bash
 cd /Users/saurabh/Desktop/Saurabh/misdisinfo.github.io
 docker compose up
 ```
+
 Then visit: http://localhost:8080
 
 ### Deploy to GitHub Pages:
+
 Push changes to the `main` branch:
+
 ```bash
 git add .
 git commit -m "Customize site for Mis|Disinformation Initiative"

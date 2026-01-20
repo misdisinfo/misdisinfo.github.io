@@ -13,22 +13,26 @@ calendar: false
 The Mis/Disinformation Initiative offers a range of educational programs designed to enhance understanding of information disorders and develop critical media literacy skills.
 
 ### Academic Courses
+
 - **Undergraduate Courses**: [Add course titles and descriptions]
 - **Graduate Seminars**: [Add course titles and descriptions]
 - **PhD Training**: [Add training program details]
 
 ### Workshops & Training
+
 - **Research Methods Workshops**: [Add text here]
 - **Professional Development**: [Add text here]
 - **Public Training Programs**: [Add text here]
 
 ### Learning Resources
+
 - Course materials and syllabi
 - Reading lists
 - Tutorials and guides
 - Online modules
 
 ### Student Opportunities
+
 - Research assistantships
 - Thesis supervision
 - Internships
@@ -56,4 +60,4 @@ Interested in studying mis- and disinformation? Learn more about our research op
 
 ---
 
-*Check our [news & events](/blog/) for upcoming educational programs and registration information.*
+_Check our [news & events](/blog/) for upcoming educational programs and registration information._
